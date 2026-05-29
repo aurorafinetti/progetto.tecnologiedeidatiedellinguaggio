@@ -1,4 +1,4 @@
-# progetto.tecnologiedeidatiedellinguaggio
+# TTITOLO PROGETTO
 
 Il presente progetto prende spunto dalla traccia _Misurare il gusto_ (traccia n. 13) e ne estende l'approccio al mercato musicale, in particolare alla vendita di supporti fisici per la riproduzione della musica. Gli stessi meccanismi di costruzione algoritmica della visibilità analizzati nel contesto editoriale si ritrovano infatti nel settore musicale, dove le piattaforme digitali influenzano sempre più anche l'acquisto di oggetti fisici come vinili e CD. Negli ultimi decenni la musica è stata fruita principalmente tramite lo streaming (Spotify, Apple Music, YouTube Music), e il formato fisico ha progressivamente perso centralità nel mercato. Negli ultimi anni, tuttavia, si registra un'inversione di tendenza: il vinile in particolare è tornato a conquistare una fetta significativa delle vendite, diventando un fenomeno culturale degno di analisi.
 
@@ -21,4 +21,6 @@ Data l'ampia varietà di generi musicali e di lingue in cui i testi possono esse
 - [Discogs](https://www.discogs.com/)
 - [RIAA](https://www.riaa.com/u-s-sales-database/)
 - [IFPI](https://www.ifpi.org/global-music-report/)
+
+# Dichiarazioni sull'uso dell'AI
 
