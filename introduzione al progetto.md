@@ -1,4 +1,4 @@
-# TTITOLO PROGETTO
+# Il ritorno del vinile: dati, tendenze e gusto nel mercato musicale contemporaneo
 
 Il presente progetto prende spunto dalla traccia _Misurare il gusto_ (traccia n. 13) e ne estende l'approccio al mercato musicale, in particolare alla vendita di supporti fisici per la riproduzione della musica. Gli stessi meccanismi di costruzione algoritmica della visibilità analizzati nel contesto editoriale si ritrovano infatti nel settore musicale, dove le piattaforme digitali influenzano sempre più anche l'acquisto di oggetti fisici come vinili e CD. Negli ultimi decenni la musica è stata fruita principalmente tramite lo streaming (Spotify, Apple Music, YouTube Music), e il formato fisico ha progressivamente perso centralità nel mercato. Negli ultimi anni, tuttavia, si registra un'inversione di tendenza: il vinile in particolare è tornato a conquistare una fetta significativa delle vendite, diventando un fenomeno culturale degno di analisi.
 
@@ -13,14 +13,14 @@ Questo progetto si propone di indagare tale fenomeno attraverso alcune domande d
 
 Data l'ampia varietà di generi musicali e di lingue in cui i testi possono essere composti, l'analisi si concentrerà sul mercato della musica anglofona. Questa scelta è motivata non solo da ragioni pratiche — la necessità di circoscrivere il campo di indagine — ma anche dal fatto che la musica anglofona ha raggiunto una diffusione internazionale senza precedenti, affermandosi come il principale punto di riferimento del mercato musicale globale. I dati sono stati raccolti dai seguenti database/siti internet:
 
-- [Billboard](https://www.billboard.com/charts/)
-- [Official Charts](https://www.officialcharts.com/)
-- [Spotify Charts](https://charts.spotify.com/)
-- [Kworb](https://kworb.net/)
-- [MusicBrainz](https://musicbrainz.org/)
-- [Discogs](https://www.discogs.com/)
-- [RIAA](https://www.riaa.com/u-s-sales-database/)
-- [IFPI](https://www.ifpi.org/global-music-report/)
+- [Billboard](https://www.billboard.com/charts/): è il principale riferimento per le classifiche musicali americane. Pubblica classifiche dedicate specificamente ai vinili (Billboard Vinyl Albums) e agli album fisici, aggiornate settimanalmente. I dati sono consultabili tramite il sito web, ma non esiste un database scaricabile ufficialmente; di conseguenza, i dati storici vanno raccolti tramite scraping con Python.
+- [Official Charts](https://www.officialcharts.com/): è l'equivalente britannico di Billboard. Pubblica classifiche storiche consultabili sul sito, anch'esse raccoglibili tramite scraping. È particolarmente utile perché il mercato britannico è uno dei più attivi al mondo per le vendite di vinili.
+- [Spotify Charts](https://charts.spotify.com/): mette a disposizione un database pubblico scaricabile direttamente in formato CSV, aggiornato quotidianamente. È la fonte ideale per il confronto tra consumo digitale e acquisto fisico.
+- [Kworb](https://kworb.net/): è un sito non ufficiale che aggrega dati di streaming da Spotify e Apple Music in formato tabellare consultabile online. Non ha un'API ufficiale, ma i dati sono raccoglibili tramite scraping ed è particolarmente utile per dati storici non più disponibili sulle fonti ufficiali.
+- [MusicBrainz](https://musicbrainz.org/): è un database enciclopedico aperto e gratuito in formato relazionale, interrogabile tramite una API REST gratuita oppure scaricabile interamente come dump in formato XML o JSON. Contiene metadati su artisti, album, generi, etichette discografiche e date di pubblicazione — ideale per arricchire il dataset con informazioni sui generi musicali.
+- [Discogs](https://www.discogs.com/): è un database dedicato ai supporti fisici (vinili, CD, cassette) con informazioni su edizioni, prezzi e generi. Dispone di una API REST gratuita e ben documentata, interrogabile con Python. I dati sono anche scaricabili come dump mensile in formato XML. È ottimo per capire quali artisti e generi dominano il mercato fisico.
+- [RIAA](https://www.riaa.com/u-s-sales-database/): è l'associazione che rappresenta l'industria musicale americana. Non ha un database interrogabile, ma pubblica report annuali in PDF e tabelle Excel scaricabili dal sito, con dati aggregati per formato (vinile, CD, streaming) utili per avere una visione d'insieme del mercato nel tempo. 
+- [IFPI](https://www.ifpi.org/global-music-report/): è l'equivalente internazionale della RIAA. Pubblica ogni anno il Global Music Report in formato PDF, con dati sulle vendite musicali mondiali divisi per formato e area geografica. È la fonte migliore per contestualizzare il fenomeno a livello globale.
 
 # Dichiarazioni sull'uso dell'AI
 
