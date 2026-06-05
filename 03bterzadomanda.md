@@ -1,3 +1,12 @@
 # Sinonimo di nostalgia?
 
+(Link al notebook Colab con testo e codice interattivo)[https://colab.research.google.com/drive/1szmsAKJquUWxCHapZTip7vgeMKBOfHrd?usp=sharing]
+
 La terza domanda di ricerca riguarda la quantità di vendite di vinili trainata dalla nostalgia — ovvero da ristampe di album storici — e da consumo contemporaneo, legato a nuove uscite? Un caso emblematico in questo senso è il ritorno in cima alle vendite dei vinili di Michael Jackson subito dopo il rilascio del biopic nell'aprile di quest'anno; per troppa vicinanza temporale, ovviamente non è possibile analizzare questo fenomeno. Comprendere questa distinzione permette di capire se il ritorno del vinile sia principalmente un fenomeno retrospettivo, alimentato dal desiderio di possedere fisicamente la musica del passato, o se rifletta anche un interesse genuino per la produzione musicale attuale. Per rispondere a questa domanda ci appoggeremo ai database utilizzati anche nella precedente ricerca: Discogs, MusicBrainz e Officail Charts UK. Il criterio adottato per distinguere tra nostalgia e consumo contemporaneo è l'anno di prima pubblicazione: gli album pubblicati originariamente prima del 2020 verranno considerati come acquisti legati alla nostalgia, mentre quelli pubblicati dal 2020 in poi come consumo contemporaneo.
+
+Tramite il sostegno di Claude, è stato generato un codice Python che permette di creare una tabella composta da:
+- informazioni sull'album (artista, titolo, anno di pubblicazione)
+- classificazione degli album in contemporanei (rilasciati dopo il 2020) o nostalgici (rilasciati dopo il 2020)
+Si è inserita anche una seconda tabella che contenesse il conteggio degli album contemporanei e di quelli antecedenti al periodo scelto. Infine, è presente una cella interattiva che permette una ricerca manuale.
+
+Dai dati si evince che vengono principalmente venduti vinili rilasciati per la prima volta nell'anno 2025, quindi si potrebbe affermare che si tratta di un consumo principalmente contemporaneo e non legato a una questione di nostalgia. Tuttavia, scorrendo nella tabella, si possono riscontrare delle versioni speciali e celebrative dell'album (es. *To Pimp A Butterfly - 10th Anniversary* di Kendrick Lamar); esse rientrano comunque nel consumo contemporaneo in quanto sono state rilasciate nel 2025, ma in una certa misura fanno leva anche sulla nostalgia dei fan di uno specifico artisa. 
